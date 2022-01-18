@@ -1,22 +1,8 @@
 \RequirePackage{plautopatch}%新おまじない
 \RequirePackage[l2tabu, orthodox]{nag}%おまじない
 
-%\documentclass[a4paper,12pt,twoside,openright,uplatex,dvipdfmx,titlepage]{jsbook}
-\documentclass[
-12pt, % The default document font size, options: 10pt, 11pt, 12pt
-twoside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
-english, % ngerman for German
-singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
-%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
-nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
-%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
-%toctotoc, % Uncomment to add the main table of contents to the table of contents
-%parskip, % Uncomment to add space between paragraphs
-%nohyperref, % Uncomment to not load the hyperref package
-headsepline, % Uncomment to get a line under the header
-%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
-consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
-]{MastersDoctoralThesis} % The class file specifying the document structure
+\documentclass[english,a4paper,12pt,twoside,openright,uplatex,dvipdfmx,titlepage]{jsbook}
+
 \usepackage{graphicx}
 \usepackage[autostyle=true]{csquotes}
 \usepackage{epic,eepic}
@@ -24,23 +10,9 @@ consistentlayout, % Uncomment to change the layout of the declaration, abstract 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{txfonts}
-%\usepackage{jsreport}
-%\usepackage{osuka-sugimoto-lab}
+\usepackage{jsreport_eng}
+\usepackage{osuka-sugimoto-lab_eng}
 
-%----------------------------------------------------------------------------------------
-%	MARGIN SETTINGS
-%----------------------------------------------------------------------------------------
-
-\geometry{
-	paper=a4paper, % Change to letterpaper for US letter
-	inner=2.5cm, % Inner margin
-	outer=2.5cm, % Outer margin
-	bindingoffset=.5cm, % Binding offset
-	top=1.5cm, % Top margin
-	bottom=1.5cm, % Bottom margin
-	%showframe, % Uncomment to show how the type block is set on the page
-}
-\renewcommand{\baselinestretch}{1.1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
